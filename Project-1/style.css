@@ -116,6 +116,7 @@ nav ul li a {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  text-align: center;
 }
 
 .about-left-col {
@@ -127,13 +128,17 @@ nav ul li a {
 }
 
 .about-right-col {
+  width: 100%;
   flex-basis: 50%;
   text-align: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .about-text {
   max-width: 500px;
-  margin-right: 100px;
+  margin-right: -75px;
   display: inline-block;
 }
 
@@ -151,4 +156,21 @@ nav ul li a {
 
 .lineitems {
   margin: 20px 0;
+}
+
+/* SocialIcons */
+.socialIcons {
+  width: 50px;
+  position: fixed;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+
+.socialIcons img {
+  display: block;
+  width: 20px;
+  margin: 0 auto 20px;
+  cursor: pointer;
 }
