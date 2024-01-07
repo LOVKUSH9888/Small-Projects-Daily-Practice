@@ -82,9 +82,10 @@ button {
   height: 100vh;
   position: fixed;
   top: 0;
-  right: 0;
-  background-color: rgb(242, 72, 112);
+  right: -250px; /* Initially right:0*/
+  background-color: rgb(242, 116, 145);
   z-index: 2;
+  transition: 0.5s;
 }
 
 nav ul li {
@@ -100,3 +101,11 @@ nav ul li a {
 }
 
 /* #############Hamburger icon */
+#hamburger {
+  width: 50px;
+  position: fixed;
+  right: 65px;
+  top: 35px;
+  z-index: 2;
+  cursor: pointer;
+}
