@@ -76,4 +76,27 @@ button {
   display: inline-block;
 }
 
-/* Now working on the Navbar that is bit complicated */
+/*###################* Now working on the Navbar that is bit complicated */
+#sideNav {
+  width: 250px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: rgb(242, 72, 112);
+  z-index: 2;
+}
+
+nav ul li {
+  /* To remove the ul list dots */
+  list-style: none;
+  margin: 50px 20px;
+}
+
+nav ul li a {
+  /* To chnage to link blue and underline view */
+  text-decoration: none;
+  color: white;
+}
+
+/* #############Hamburger icon */
