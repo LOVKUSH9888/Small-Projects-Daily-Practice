@@ -1,0 +1,14 @@
+.outer {
+  background-color: fuchsia;
+  border: 1px solid #000;
+}
+
+.inner {
+  background-color: chartreuse;
+  transition: 1s; /*This will delay the immediate change of the hover*/
+}
+
+.inner:hover {
+  background-color: blue;
+  color: white; /*Here wtargeting the text color*/
+}

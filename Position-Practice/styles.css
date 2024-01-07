@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.outer{
+    background-color: aqua;
+    position: relative;
+    border: 5px solid #ff0000;
+    height: 50vh;
+}
+
+.inner{
+    background-color: blueviolet;
+    /* margin: 100px 10px 50px 5px; (trbl) */
+    width: 200px;
+    padding: 35px;
+    position: absolute;
+    right: 0px;
+    /* bottom: 0px; */
+    
+}
