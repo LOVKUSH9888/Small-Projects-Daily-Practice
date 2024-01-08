@@ -174,3 +174,71 @@ nav ul li a {
   margin: 0 auto 20px;
   cursor: pointer;
 }
+
+/* ################ Features section */
+#features {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.feature-row {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.feature-col {
+  flex-basis: 25%;
+  text-align: center;
+}
+
+.feature-col img {
+  width: 100px;
+}
+
+.feature-col h4 {
+  margin-bottom: 15px;
+  font-size: 20px;
+  font-weight: 400;
+}
+/* feature-button */
+.feature-button {
+  margin: 80px auto 0;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+.feature-button .line {
+  margin-right: 15px;
+}
+
+/* ########## Browse-courses */
+#Browse-courses {
+  padding: 100px 0;
+  display: flex;
+  justify-self: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.browse-right-col img {
+  width: 100%;
+}
+
+.browse-left-col {
+  width: 100%;
+  flex-basis: 50%;
+  /* text-align: ; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.browse-right-col {
+  flex-basis: 50%;
+}
+
+
