@@ -10,6 +10,7 @@ hamburger.onclick = function () {
   }
 };
 
+// Smooth scroll by the CDN link
 var scroll = new SmoothScroll('a[href*="#"]', {
   speed: 1000,
   speedAsDuration: true,
