@@ -11,8 +11,8 @@
   background-position: center;
 }
 
-.navbar{
-    background: transparent;
+.navbar {
+  background: transparent;
 }
 .navbar-nav li a {
   float: right;
@@ -29,4 +29,13 @@
 nav .fa-bars {
   color: #fff;
   font-size: 26px;
+}
+
+/* Wlcome Header Text */
+
+.welcome {
+  padding: 50px 100px;
+  margin-top: -140px;
+  background-color: #fff;
+  box-shadow: 0 0 20px 7px rgba(0, 0, 0, 0.2);
 }
