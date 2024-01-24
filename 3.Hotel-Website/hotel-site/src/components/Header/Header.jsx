@@ -18,7 +18,7 @@ const Header = () => {
           </p>
           {/* Button */}
           <div className="input-group ">
-            <input type="text" placeholder="Search" className="form-control"/>
+            <input type="text" placeholder="Search" className="form-control" />
             <div className="input-group-append">
               <button>Submit</button>
             </div>
