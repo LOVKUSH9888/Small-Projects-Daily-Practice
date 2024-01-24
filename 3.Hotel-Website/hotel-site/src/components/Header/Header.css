@@ -8,6 +8,7 @@
   background-position: center;
   background-attachment: fixed;
   padding: 15px;
+  /* text-align: center; */
 }
 
 #header h1 {
@@ -26,4 +27,49 @@
   color: #fff;
   float: right;
   /* display: inline-block; */
+}
+
+/* container-2 */
+#header .container-2 {
+  text-align: center;
+  color: #fff;
+}
+
+#header .container-2 h1 {
+  padding-top: 200px;
+  padding-bottom: 0;
+  font-size: 60px;
+}
+
+#header .container-2 p {
+  margin: 18px 0px;
+}
+
+#header .container-2 .input-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#header .container-2 .input-group input {
+  width: 90%;
+  max-width: 800px;
+  height: 50px;
+  border-radius: 30px;
+  /* text-align: center; */
+}
+#header .container-2 .input-group .form-control {
+  border: 0 !important;
+}
+
+#header .container-2 .input-group button {
+  width: 130px;
+  height: 50px;
+  background-image: linear-gradient(#00ff7e, #1f3d90);
+  border: 0 !important;
+  color: #fff !important;
+  padding: 0 25px !important;
+  border-radius: 30px !important;
+  box-shadow: none !important;
+  margin: 0 20px;
 }
