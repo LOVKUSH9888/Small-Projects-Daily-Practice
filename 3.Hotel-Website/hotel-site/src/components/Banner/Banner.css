@@ -1,0 +1,32 @@
+#banner {
+  height: 70vh;
+  background-image: url(../../../public/images/banner2.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  padding-top: 13%;
+}
+
+.banner-heighlight {
+  padding: 70px 0;
+  text-align: center;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.7);
+  /* justify-content: center; */
+}
+
+#banner .login-btn {
+  width: 100px;
+  padding: 8px 0;
+  outline: none !important;
+  border: 2px solid #fff;
+  border-radius: 50px;
+  background: transparent;
+  color: #fff;
+  float: right;
+  /* display: inline-block; */
+}
+
+.col-md-4 .login-btn {
+  margin-top: 20px;
+}
