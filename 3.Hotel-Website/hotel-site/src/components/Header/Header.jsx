@@ -1,16 +1,22 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Header.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
 const Header = () => {
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
   return (
     <>
       <section id="header">
         {/* Header Container */}
         <div className="container">
-          <h1 className="text-white">Travel-World</h1>
-          <button className="login-btn">Login</button>
+          <h1 data-aos="fade-right" className="text-white">Travel-World</h1>
+          <button data-aos="fade-left" className="login-btn">Login</button>
         </div>
         {/* Mid section text */}
-        <div className="container-2">
+        <div data-aos="fade-up" className="container-2">
           <h1>Travel Accross The Glove</h1>
           <p>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio,

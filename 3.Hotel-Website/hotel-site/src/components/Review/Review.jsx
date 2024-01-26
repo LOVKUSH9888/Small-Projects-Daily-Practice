@@ -1,15 +1,21 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Review.css";
 import { LuMessagesSquare } from "react-icons/lu";
+import AOS from "aos";
+import "aos/dist/aos.css";
 const Review = () => {
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
   return (
     <>
       <section id="review">
-        <h1 className="text-center my-5">Reviews</h1>
+        <h1 data-aos="fade-right" className="text-center my-5">Reviews</h1>
         {/* Containers */}
         <div className="container">
           <div className="row">
-            <div className="col-md-4">
+            <div data-aos="fade-right" className=" col-md-4">
               <div className="review-box text-center">
                 <LuMessagesSquare className="icon" />
                 <p>
@@ -22,9 +28,9 @@ const Review = () => {
                 <h5>David Housan</h5>
                 <small>Chandigarh</small>
               </div>
-              <img src="../../../public/images/user1.jpg" alt="" />
+              <img src="../../../images/user1.jpg" alt="" />
             </div>
-            <div className="col-md-4">
+            <div data-aos="fade-up" className="col-md-4">
               <div className="review-box text-center">
                 <LuMessagesSquare className="icon" />
                 <p>
@@ -37,9 +43,9 @@ const Review = () => {
                 <h5>David Housan</h5>
                 <small>Chandigarh</small>
               </div>
-              <img src="../../../public/images/user1.jpg" alt="" />
+              <img src="../../../images/user2.jpg" alt="" />
             </div>
-            <div className="col-md-4">
+            <div data-aos="fade-left" className="col-md-4">
               <div className="review-box text-center">
                 <LuMessagesSquare className="icon" />
                 <p>
@@ -52,7 +58,7 @@ const Review = () => {
                 <h5>David Housan</h5>
                 <small>Chandigarh</small>
               </div>
-              <img src="../../../public/images/user1.jpg" alt="" />
+              <img src="../../../images/user3.jpg" alt="" />
             </div>
           </div>
         </div>

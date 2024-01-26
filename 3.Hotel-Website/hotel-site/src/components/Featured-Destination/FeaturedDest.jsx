@@ -1,19 +1,25 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./FeaturedDest.css";
 import { FaStar } from "react-icons/fa6";
 import { FaStarHalfAlt } from "react-icons/fa";
+import AOS from "aos";
+import "aos/dist/aos.css";
 const FeaturedDest = () => {
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
   return (
     <>
       <div id="section">
-        <h1>Featured Destination</h1>
+        <h1 data-aos="fade-right">Featured Destination</h1>
         {/* Container for Cards */}
         <div className="container my-5">
           <div className="row">
-            <div className="col-md-4">
+            <div data-aos="fade-right" className="col-md-4">
               <div className="feature-box">
                 <div className="feature-img">
-                  <img src="../../../public/images/1.jpg" alt="" />
+                  <img src="../../../images/1.jpg" alt="" />
                   <div className="price">
                     <p>100$</p>
                   </div>
@@ -34,10 +40,10 @@ const FeaturedDest = () => {
                 </p>
               </div>
             </div>
-            <div className="col-md-4">
+            <div data-aos="fade-up" className="col-md-4">
               <div className="feature-box">
                 <div className="feature-img">
-                  <img src="../../../public/images/2.jpg" alt="" />
+                  <img src="../../../images/2.jpg" alt="" />
                   <div className="price">
                     <p>100$</p>
                   </div>
@@ -58,10 +64,10 @@ const FeaturedDest = () => {
                 </p>
               </div>
             </div>
-            <div className="col-md-4">
+            <div data-aos="fade-left" className="col-md-4">
               <div className="feature-box">
                 <div className="feature-img">
-                  <img src="../../../public/images/3.jpg" alt="" />
+                  <img src="../../../images/3.jpg" alt="" />
                   <div className="price">
                     <p>100$</p>
                   </div>
