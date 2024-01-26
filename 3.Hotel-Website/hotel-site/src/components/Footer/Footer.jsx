@@ -18,7 +18,7 @@ const Footer = () => {
       <section id="footer">
         <div className="container text-white">
           <div className="row">
-            <div  data-aos="fade-right" className="col-md-3">
+            <div data-aos="fade-right" className="col-md-3">
               <h2>Logo</h2>
               <p>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit.
@@ -38,22 +38,40 @@ const Footer = () => {
             <div data-aos="fade-up" className="col-md-3">
               <h2>Quick Contact</h2>
               <ul>
-                <li> <FaPhone /> Deals & Offers</li>
-                <li> <MdMarkEmailRead /> Customer Reviews</li>
-                <li> <FaHome /> Cancelation Policy</li>
+                <li>
+                  {" "}
+                  <FaPhone /> Deals & Offers
+                </li>
+                <li>
+                  {" "}
+                  <MdMarkEmailRead /> Customer Reviews
+                </li>
+                <li>
+                  {" "}
+                  <FaHome /> Cancelation Policy
+                </li>
               </ul>
             </div>
             <div data-aos="fade-left" className="col-md-3">
               <h2>Follow Us on</h2>
               <ul>
-                <li> <SlSocialLinkedin /> Deals & Offers</li>
-                <li> <SlSocialSkype /> Customer Reviews</li>
-                <li> <SlSocialTwitter /> Cancelation Policy</li>
+                <li>
+                  {" "}
+                  <SlSocialLinkedin /> Deals & Offers
+                </li>
+                <li>
+                  {" "}
+                  <SlSocialSkype /> Customer Reviews
+                </li>
+                <li>
+                  {" "}
+                  <SlSocialTwitter /> Cancelation Policy
+                </li>
               </ul>
             </div>
           </div>
           <hr />
-          <p  data-aos="fade-right" className="text-center">Made by @Lovkush</p>
+          <h6>Made By @lovkush</h6>
         </div>
       </section>
     </>
