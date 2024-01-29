@@ -13,9 +13,15 @@ function BasicExample() {
           </a>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="me-auto">
-              <Nav.Link href="#home">Home</Nav.Link>
-              <Nav.Link href="#link">Link</Nav.Link>
+            {/* me auto = left side, Ms-Auto = right side */}
+            <Nav className="ms-auto">
+              <Nav.Link className="custom-nav-link" href="#home">Home</Nav.Link>
+              <Nav.Link className="custom-nav-link" href="#link">About Us</Nav.Link>
+              <Nav.Link className="custom-nav-link" href="#link">Services</Nav.Link>
+              <Nav.Link className="custom-nav-link" href="#link">Our Team</Nav.Link>
+              <Nav.Link className="custom-nav-link" href="#link">Price Plan</Nav.Link>
+              <Nav.Link className="custom-nav-link" href="#link">Testimonials</Nav.Link>
+              <Nav.Link className="custom-nav-link" href="#link">Contact</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
