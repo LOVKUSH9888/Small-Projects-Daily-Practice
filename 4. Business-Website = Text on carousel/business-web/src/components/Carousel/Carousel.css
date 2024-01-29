@@ -2,11 +2,23 @@
   width: 100%;
 }
 
-.carousel-caption h5 {
-  transform: translateY(-385%) !important;
-  color: black;
+.carousel-caption {
+  top: 50%;
+  transform: translateY(-50%) !important;
+  bottom: initial !important;
 }
+
+/* Caraousel making it in center */
+.carousel-caption {
+  top: 50%;
+  transform: translateY(-50%) !important;
+  /* bottom: initial !important; */
+}
+
+.carousel-caption h5 {
+  font-size: 80px;
+}
+
 .carousel-caption p {
-  transform: translateY(-385%) !important;
-  color: black;
+  font-size: 30px;
 }
