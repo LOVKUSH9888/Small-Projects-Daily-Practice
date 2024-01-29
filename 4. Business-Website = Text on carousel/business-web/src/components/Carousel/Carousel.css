@@ -1,0 +1,12 @@
+.slider-part {
+  width: 100%;
+}
+
+.carousel-caption h5 {
+  transform: translateY(-385%) !important;
+  color: black;
+}
+.carousel-caption p {
+  transform: translateY(-385%) !important;
+  color: black;
+}
