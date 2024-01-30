@@ -1,0 +1,30 @@
+#services {
+  padding: 50px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(../../../public/img/services.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #efefef !important;
+  background-attachment: fixed;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.col-md-4 h4 {
+  font-size: 35px;
+}
+
+.col-md-4 {
+  padding: 20px;
+  /* border: solid; */
+  border-radius: 20px;
+  transition: 1.2s;
+}
+
+.col-md-4:hover {
+  background-color: rgb(0, 0, 0);
+}
+
+.col-md-4 .iconsbadge {
+  font-size: 80px;
+}
