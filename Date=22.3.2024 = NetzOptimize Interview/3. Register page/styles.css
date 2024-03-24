@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #472299;
+}
+
+nav.navbar {
+  background-color: #472299 !important;
+}
+
+.internal-nav {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.nav-item a {
+  color: white !important;
+  padding: 0px 60px;
+}
+
+.navbar-brand {
+  width: 350px;
+  height: 100px;
+}
+
+h1 {
+  font-size: 35px;
+  line-height: 45px;
+  color: white;
+}
+
+h2 {
+  font-size: 20px;
+  line-height: 30px;
+  color: white;
+}
+
+h3 {
+  font-size: 14px;
+  line-height: 20px;
+  color: white;
+}
+
+h4 {
+  font-size: 11px;
+  line-height: 16px;
+  color: white;
+}
+
+h6 {
+  font-size: 8px;
+  line-height: 16px;
+  color: white;
+}
